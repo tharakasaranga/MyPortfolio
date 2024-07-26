@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+body{
+    background: url(images/backgroundImage.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+
+.header{
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    padding:5px;
+    display: flex;
+    width: 100%;
+    z-index: 1000;
+    height:60px;
+}
+
+.header .title{
+    width: 30%;
+}
+
+p.myName{
+    padding:10px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 5px 5px 10px rgba(2,2,2, 3.5);
+    background: linear-gradient(to right, #ffffff,#31ec1c);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.header div nav{
+    margin-left: 100px;
+    width: 100%;
+    display: flex;
+ 
+}
+
+.header div nav a{
+    padding-left: 40px;
+    margin-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 40px;
+    text-decoration: none;
+    font-weight: 700;
+    color:rgb(255, 255, 255);
+    margin-top:8px;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px rgba(0,0,0, 0.5);
+}
+
+
+.header div nav a:hover{
+    color:black;
+    font-weight: 900;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 100px;
+    box-shadow: 0 0 50px  red;
+}
+
+.header div nav a:active{
+    color:rgb(219, 7, 7);
+    font-weight: 900;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 50px  rgb(254, 194, 17);
+}
+
+
+.container{
+    position: absolute;
+    margin-top: 150px;
+    color:white;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.container .home{
+    margin-bottom: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container .home .introduction{
+    width: 50%;
+    margin-top:70px;
+}
+
+.introduction .name{
+    font-size: 60px;
+    font-weight: 900;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.introduction .discription{
+    font-size: 30px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: .5000ms;
+    font-weight: 700;
+    transition: 1000ms;
+    color:greenyellow;
+}
+
+.cv{
+    text-decoration: none;
+    background-color: white;
+    padding:20px;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: rgb(255, 192, 3);
+    color:black;
+    font-weight: 900;
+    box-shadow: 0px 0px 50px  rgb(255, 255, 255);
+
+}
+
+.cv:hover{
+    box-shadow: 0px 0px 50px  rgb(241, 12, 12);
+}
+
+
+.cv:active{
+    box-shadow: 0px 0px 50px  rgb(20, 207, 23);
+}
+.container .home .photoSection{
+    width: 50%;
+    margin-left: 100px;
+}
+
+.photoSection img{
+    box-shadow: 0 0 100px rgb(255, 255, 255);
+    width:580px;
+    height:510px;
+    border-radius: 50%;
+}
+
+.headingandTopics{
+    scroll-margin-top: 100px;
+    color:rgb(16, 228, 19);
+    text-align: center;
+    border-bottom: 2px solid wheat;
+    border-top: 2px solid wheat;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    
+}
+
+
+.subheadingSkill{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 0px 30px  rgb(236, 30, 255);
+}
+.about{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0, 0.5), 0 10px 10px rgba(0,0,0, 0.22);
+}
+
+.about .about-left{
+    width:70%;
+    margin-right: 80px;
+}
+
+.about .about-left p{
+    padding-right: 40px;
+    text-align: justify;
+    margin-top:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.about .about-right{
+    
+    width:30%;
+}
+
+.about .about-right table tr td img{
+    width:90px;
+    margin:5px;
+    height:70px;
+}
+
+
+.skill{
+    display: flex;
+    width:100%;
+    margin:0px auto;
+    color:#fff;
+    padding:50px;
+    box-shadow: 0 14px 28px rgba(0,0,0, 0.5), 0 10px 10px rgba(0,0,0, 0.22);
+}
+
+
+.skillLeft{
+    width:50%;
+    margin-right:40px;
+}
+
+.skillRight{
+    width: 50%;
+    margin-left: 40px;
+}
+
+
+.skill .skillLeft li{
+    margin:20px 0;
+    padding:10px;
+}
+
+
+.skill .skillRight li{
+    margin:20px 0;
+    padding:10px;
+}
+
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border:1px solid rgba(0,0,0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0, 0.12), 0 1px 2px rgba(0,0,0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0, 0.25), 0 10px 10px rgba(0,0,0, 0.24);
+}
+
+.bar span{
+    height: 20px;
+    float:left;
+    background:linear-gradient(135deg, rgb(241, 5, 5)0%,rgb(130, 255, 12)100%);
+}
+
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+
+
+.css{
+    width: 80%;
+    animation: css 3s;
+}   
+
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.java{
+    width: 90%;
+    animation: java 3s;
+} 
+
+
+
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.Python{
+    width: 60%;
+    animation: Python 3s;
+} 
+
+
+@keyframes Python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+.mysql{
+    width: 75%;
+    animation: mysql 3s;
+} 
+
+
+@keyframes mysql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+
+
+.gui{
+    width: 50%;
+    animation: html 3s;
+}
+
+
+@keyframes gui{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+
+.cs{
+    width: 60%;
+    animation: css 3s;
+}   
+
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+.trade{
+    width: 90%;
+    animation: trade 3s;
+} 
+
+
+
+@keyframes trade{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+.web{
+    width: 75%;
+    animation: web 3s;
+} 
+
+
+@keyframes web{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+.dad{
+    width: 70%;
+    animation: dad 3s;
+} 
+
+
+@keyframes dad{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+
+.contact{
+    display: flex;
+    box-shadow: 0 14px 28px rgba(0,0,0, 0.5), 0 10px 10px rgba(0,0,0, 0.22);
+    width:100%;    
+    padding-top: 10px;
+}
+
+.contactParagraph{
+    width: 50%;
+    padding-left: 30px;
+    margin-right: 100px;
+}
+
+.contactParagraph p{
+    text-align: left;
+    font-size: 16px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times;
+    
+}
+
+.contactParagraph ul li{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times;
+    font-weight: bold;
+}
+
+.icons{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.icons .icon{
+    color:white;
+    background-color: rgb(66, 64, 66);
+    font-size: 25px;
+    border-radius: 50%;
+    padding:20px;
+}
+
+.icons .icon:hover{
+    background-color: rgb(130, 255, 12);
+    color:rgb(16, 1, 17);
+    box-shadow: 0 0 50px rgb(226, 218, 59);
+}
+
+.icons .icon:active{
+    background-color: rgb(204, 37, 220);
+    color:rgb(16, 1, 17);
+    box-shadow: 0 0 50px rgb(115, 208, 65);
+}
+.contactMethod{
+    padding-right: 20px;
+    margin-left: 100px;
+    width: 50%;
+}
+
+.contactmethod label{
+    font-size: 20px;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+}
+.contactmethod .textInput{
+    padding:5px;
+    padding-left: 15px;
+    width: 100%; 
+    border-radius: 20px;
+    opacity: 50%;
+    font-size: 15px;
+    color:black;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.submit_btn{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:15px;
+    background-color: #27ff0f;
+    border-radius: 35px;
+    font-weight: 900;
+    border:2px solid rgb(16, 228, 19);
+    cursor: pointer;
+    margin-top:10px;
+    box-shadow: 0 0 40px rgb(20, 207, 23);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.submit_btn:hover{
+    background-color: rgb(254, 194, 17);
+    box-shadow: 0 0 40px rgb(254, 194, 17);
+    border: 2px solid rgb(255, 192, 3);
+}
+
+.submit_btn:active{
+    box-shadow: 0 0 40px rgb(219, 7, 7);
+}
