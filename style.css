@@ -410,6 +410,45 @@ bar:hover{
 }
 
 
+.projects{
+    width:100%;
+    display: flex;
+    box-shadow: 0 14px 28px rgba(0,0,0, 0.5), 0 10px 10px rgba(0,0,0, 0.22);
+}
+
+.projects .project{
+    width: 33%;
+    padding-right:50px;
+}
+
+.projects .project .image a img{
+    width:300px;
+    margin-left:20px;
+    height: 200px;
+}
+
+.project .intro{
+    padding:10px;
+}
+.project .intro p{
+    text-align: justify;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contact{
     display: flex;
     box-shadow: 0 14px 28px rgba(0,0,0, 0.5), 0 10px 10px rgba(0,0,0, 0.22);
