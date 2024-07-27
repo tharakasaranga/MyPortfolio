@@ -112,11 +112,11 @@ p.myName{
 
 .introduction .discription{
     font-size: 30px;
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Cambria, Cochin, Times, 'Times New Roman', serif;
     transition: .5000ms;
     font-weight: 700;
     transition: 1000ms;
-    color:greenyellow;
+    color:rgb(41, 247, 65);
 }
 
 .cv{
@@ -147,7 +147,7 @@ p.myName{
 
 .photoSection img{
     box-shadow: 0 0 100px rgb(255, 255, 255);
-    width:580px;
+    width:600px;
     height:510px;
     border-radius: 50%;
 }
@@ -195,12 +195,24 @@ p.myName{
     width:30%;
 }
 
+
+.about-right .cc{
+    text-align: center;
+    color:#e79004;
+    margin-bottom:10px;
+}
 .about .about-right table tr td img{
     width:90px;
+    border-radius: 10px;
+    border:5px solid rgb(248, 136, 45);
     margin:5px;
     height:70px;
 }
 
+.about .about-right table tr td img:hover{
+    box-shadow: 0 0 10px rgb(130, 255, 12);
+    border:6px solid rgb(120, 227, 58);
+}
 
 .skill{
     display: flex;
@@ -437,18 +449,6 @@ bar:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .contact{
     display: flex;
     box-shadow: 0 14px 28px rgba(0,0,0, 0.5), 0 10px 10px rgba(0,0,0, 0.22);
@@ -549,3 +549,20 @@ bar:hover{
 .submit_btn:active{
     box-shadow: 0 0 40px rgb(219, 7, 7);
 }
+
+.footer{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-color: rgb(0, 0, 0);
+    padding:5px;
+    margin-top: 100px;
+    height:60px;
+    margin-right: -150px;
+    margin-left: -150px;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    padding-top:10px;
+    padding-bottom:40px;
+}
+
